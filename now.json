@@ -1,0 +1,9 @@
+{
+  "name": "branding",
+  "alias": ["my-brand", "my-branding"],
+  "version": 2,
+  "builds": [{ "src": "logos/*", "use": "@now/static" }],
+  "github": {
+    "silent": true
+  }
+}
